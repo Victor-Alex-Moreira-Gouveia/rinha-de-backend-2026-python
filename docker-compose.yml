@@ -1,0 +1,8 @@
+services:
+  Python:
+    image: python
+    deploy:
+      resources:
+        limits:
+          memory: 350M
+          cpus: '1'
